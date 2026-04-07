@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct detailAlamat
+struct detaiAlamat
 {
     string desa;
     string kota;
@@ -12,10 +12,12 @@ struct detailAlamat
 struct orang 
 {
     string nama;
-    detailAlamat alamat;
+    detaiAlamat alamat;
     int umur;
 };
  int main ()
  {
+    //deklarasi variable struct
+    orang msh;
     
  }

@@ -39,10 +39,11 @@ int main()
     //mengisi data melalui perulangan
     for (int i = 0; i <= 4; i++)
     {
-        cout << "isikan data ke-" << (i +1) << " : ";
+        cout << "isikan data ke-" << (i + 1) << " : ";
         cin >> datamu [i];
     }
     cout << endl;
 
-
+   cout << "tampil data array menghgunakan for" << endl;
+   // menampilkan data dengan perulangan
 }
